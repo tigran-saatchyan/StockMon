@@ -1,0 +1,9 @@
+{% extends "index/layouts/base.html" %}
+
+{% block title %} About {% endblock %}
+
+{% block content %}
+    <h1>About Page</h1>
+    <p>Welcome to our website! This is the about page.</p>
+    <a href="{% url 'index:home' %}">Back to Home Page</a>
+{% endblock content %}
